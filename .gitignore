@@ -1,0 +1,17 @@
+*.DS_Store
+*~
+*.class
+*.diff
+*.log
+*.txt
+*.properties
+*.patch
+
+build.xml
+bin/*
+gen/*
+out/*
+.idea/*
+.classpath
+.project
+*.iml
