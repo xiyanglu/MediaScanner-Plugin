@@ -1,21 +1,17 @@
 # MediaScanner-Plugin
-    MediaScanner Plugin is developed based on ffmpeg, which is used to extract media metadata.  MediaScanner Plugin could running on Android/Linux/Windows.
-    The basic purpose is to enhance Android MediaScanner supporting additional media files.
+    MediaScanner Plugin是一个基于FFMPEG实现的获取音视频插件，此插件可以运行于Android/Linux/Windows。
 
-## Functions
-- Extracting Media Metadata
-- Extracting Video Frame
+## 功能
+（1）获取音视频Metadata
+（2）获取视频指定帧图像
 
-## Compile
-### Android
-This plugin depends on ffmpeg.
-Edite ffmpeg path in Android.mk ：
+## 编译
+（1）Android
+依赖于ffmpeg，需要配置Android.mk，如下：
     FFMPEG_SRC_DIR := FFMPEG_PATH
-
-Building out is libffscanner_plugin.so, you can find is in "out/android/" folder
-
-### Linux/Windows
-As long as you have ffmpeg development environment.
+完成编译后会输出一个libffscanner_plugin.so文件
+（2）Linux/Windows
+具备FFMPEG开发环境即可。
 
 ## License
 Copyright 2015 Guo He <lovenight@126.com>
@@ -31,3 +27,7 @@ You may obtain a copy of the License at
  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  See the License for the specific language governing permissions and
  limitations under the License.
+
+
+
+
