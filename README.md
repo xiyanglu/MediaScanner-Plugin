@@ -7,14 +7,14 @@
 - Extracting Video Frame
 
 ## Compile
-### Android
+**Android**
 This plugin depends on ffmpeg.
 Edite ffmpeg path in Android.mk ：
     FFMPEG_SRC_DIR := FFMPEG_PATH
 
 Building out is libffscanner_plugin.so, you can find is in "out/android/" folder
 
-### Linux/Windows
+**Linux/Windows**
 As long as you have ffmpeg development environment.
 
 ## License
