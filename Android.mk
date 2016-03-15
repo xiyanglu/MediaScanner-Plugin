@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-FFMPEG_SRC_DIR := $(TOP)/vendor/letv/proprietary/ffmpeg
+FFMPEG_SRC_DIR := $(TOP)/vendor/proprietary/ffmpeg
 FFMPEG_CONFIG_DIR := android/$(TARGET_PRODUCT)-$(TARGET_BUILD_VARIANT)/arm
 
 LOCAL_SRC_FILES += \
